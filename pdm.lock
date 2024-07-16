@@ -5,4 +5,15 @@
 groups = ["default"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.2"
-content_hash = "sha256:d3007c65cf6f599df32770f1bb58581b12054c3fa0d167035d674644a49fb97b"
+content_hash = "sha256:225a150b8680c6647a0fbf161b79ecf1f9930899061d5092b622181d943a252e"
+
+[[package]]
+name = "kimwonjoon-lotto"
+version = "0.2.0"
+requires_python = ">=3.9"
+summary = "Default template for PDM package"
+groups = ["default"]
+files = [
+    {file = "kimwonjoon_lotto-0.2.0-py3-none-any.whl", hash = "sha256:dd1d4ac1e13d2269397f09d9c7c036cc886f7798cefc2233938a9b067175ae5a"},
+    {file = "kimwonjoon_lotto-0.2.0.tar.gz", hash = "sha256:8f1ab0f502411abd5f8046f4301081abd3e7ace37c457916beaef2bdc3265c80"},
+]
